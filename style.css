@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+/*この部分はいらない（解答にはなし）*/
+.main-visual{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  flex-wrap:wrap;
+}
+
+.main-visual-content{
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box1{
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2{
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box4.jpg);
+  background-size: cover;
+  background-position: center;
+}
